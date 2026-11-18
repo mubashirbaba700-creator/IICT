@@ -1,1 +1,75 @@
+body {
+    background-color: lightyellow;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
 
+h1, h2 {
+    color: chocolate;
+    margin-top: 0;
+}
+
+#header {
+    border: 2px solid orange;
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    height: 60px;
+}
+
+#header h1 {
+    float: left;
+    margin-top: 12px;
+}
+
+#me {
+    float: right;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid orange;
+}
+
+.stage {
+    border: 2px solid orange;
+    border-left: 8px solid orange;
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+
+#past {
+    margin-left: 0px;
+}
+
+#present {
+    margin-left: 40px;
+}
+
+#future {
+    margin-left: 80px;
+    border-style: dashed;
+    border-left-style: dashed;
+}
+
+
+.year {
+    display: inline-block;
+    border: 1px solid orange;
+    color: chocolate;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin-top: 0;
+}
+
+.fact, .goal {
+    display: inline-block;
+    width: 28%;
+    vertical-align: top;
+    border: 1px solid orange;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: lightyellow;
+}
